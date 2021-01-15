@@ -3,7 +3,7 @@ jobs:
   myjob:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v2
+      - uses: actions/checkout@v2
       - name: "run the action test"
         id: hello
         uses: ./
